@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ask Her Out</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      .row {
+          display: flex;
+          gap: 20px;
+      }
+      .col {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      img {
+          max-width: 100%;
+          height: auto;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+      .image-container {
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .image-container img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+  </style>
+  </head>
+  <body>
+
+    <div class="container">
+    
+      <div class="row">
+        <div class="col">
+            <div class="image-container">
+                <img src="Assets/2.heic" alt="Image 1">
+            </div>
+        </div>
+        <div class="col">
+            <div class="image-container">
+                <img src="Assets/me.jpg" alt="Image 2">
+            </div>
+        </div>
+    </div>
+
+      <!-- <img src="Assets/eyes.jpeg" alt="Eyes" id ="eye" style="width: 50vh;"> -->
+
+
+        <audio autoplay loop>
+            <source src="Assets/MaineKhudKo.mp3" type="audio/mp3">
+        </audio>
+        <!-- <marquee> -->
+            <span><b>Kitna khoobsurat chehra hai tumhara,</b></span>
+            <span><b>Har dil to Praapti deewana hai tumhara...</b></span>
+            <span><b>Log kahte hai tum tukda ho chand ka...</b></span>
+            <span><b>Par mai to kahta hu Chand bhi tukda hai tumhara💖</b></span>
+        
+
+        <div class="btn">
+            <a href="slides.html">Next</a>
+            <!-- <a href="slides.html">hu</a> -->
+          </div>
+    </div>
+
+
+    <div >
+      
+      <script
+        type="text/javascript"
+        async
+        src="https://tenor.com/embed.js"
+      > 
+      </script>
+      <script>
+        function one(){
+            document.getElementById("eye").src="Assets/EyePic.png";
+        }
+        function two(){
+            document.getElementById("eye").src="Assets/1.jpeg";
+        }
+        setInterval(one,4000);
+        setInterval(two,8000);
+      </script>
+    </div>
+  </body>
+</html>
